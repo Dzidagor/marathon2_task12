@@ -1,0 +1,66 @@
+@import 'colors'
+@import 'fonts'
+@import 'interface'
+
+
+
+.form-container 
+  display: flex
+  align-items: center
+  flex-flow: column
+  max-width: 1280px
+  margin: auto 
+  padding-top: 40px
+  &__title
+    text-align: center
+    text-transform: uppercase
+    margin-bottom: 30px
+    font-weight: 500
+    font-size: 30px
+
+#movieForm 
+  display: flex
+  flex-direction: column
+  border: 1px solid #000
+  border-radius: 5px
+  padding: 20px
+
+.input-container 
+  display: flex
+  gap: 10px 
+  margin-bottom: 20px 
+
+input, button
+  border: 1px solid #000
+  border-radius: 5px
+  padding: 10px
+
+button
+  align-self: flex-end
+
+.films
+  &__container
+    display: flex
+    padding: 40px
+    flex-wrap: wrap
+  &__plate
+    display: flex
+    flex-flow: column
+    align-items: center
+    border: 2px solid #000
+    border-radius: 5px
+    padding: 20px
+    height: 100px
+    margin: 20px
+  &__title
+    font-size: 24px
+    font-weight: bold
+    color: #333
+    margin-bottom: 10px
+    text-transform: uppercase
+  &__subtitle
+    font-size: 18px
+    font-weight: normal
+    color: #666
+    text-transform: capitalize
+
